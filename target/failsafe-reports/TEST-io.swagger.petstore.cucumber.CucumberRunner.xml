@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.swagger.petstore.cucumber.CucumberRunner" time="1.22" tests="64" errors="6" skipped="15" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\LENOVO\IdeaProjects\petstore-homework-wk-19-pratik-main"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\LENOVO\IdeaProjects\petstore-homework-wk-19-pratik-main"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\php\v7.2;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Users\LENOVO\AppData\Roaming\Composer\vendor\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Program Files\JetBrains\DataGrip 2021.2.4\bin;;C:\Program Files\Apache\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\LENOVO\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="tags" value="studentfeature:NEGATIVE"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="java.class.path" value="C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify -Dtags=studentfeature:NEGATIVE serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Pet store creating new pet data" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0.002"/>
+  <testcase name="When I create a new pet by providing the information id &quot;23&quot; idFirst &quot;45&quot; name &quot;bunny&quot; nameFirst &quot;rabbit&quot; photoUrl&quot;http://dummyimage.com&quot;idsecond &quot;56&quot; namesecond &quot;bunny2&quot; status&quot;available&quot;" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0"/>
+  <testcase name="Then I verify A pet with &quot;23&quot; is created" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0"/>
+  <testcase name="And I update the pet information  id &quot;23&quot; idFirst &quot;45&quot; name &quot;bunny&quot; nameFirst &quot;rabbit&quot; photoUrl&quot;http://dummyimage.com&quot;idsecond &quot;56&quot; namesecond &quot;bunny2&quot; status&quot;available&quot;" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0"/>
+  <testcase name="And A pet update with &quot;23&quot; is successfully" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0"/>
+  <testcase name="And I delete the pet that created with &quot;23&quot;" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0"/>
+  <testcase name="Then the pet deleted succesfully from the application" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0"/>
+  <testcase name="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" classname="| 23 | 45 | bunny | rabbit | http://dummyimage.com | 56 | bunny2 | available |" time="0.004"/>
+  <testcase name="Given Pet store creating new pet data" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0"/>
+  <testcase name="When I create a new pet by providing the information id &quot;24&quot; idFirst &quot;46&quot; name &quot;dear&quot; nameFirst &quot;tiger&quot; photoUrl&quot;http://dummyimage.com&quot;idsecond &quot;57&quot; namesecond &quot;tiger2&quot; status&quot;not available&quot;" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0"/>
+  <testcase name="Then I verify A pet with &quot;24&quot; is created" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0"/>
+  <testcase name="And I update the pet information  id &quot;24&quot; idFirst &quot;46&quot; name &quot;dear&quot; nameFirst &quot;tiger&quot; photoUrl&quot;http://dummyimage.com&quot;idsecond &quot;57&quot; namesecond &quot;tiger2&quot; status&quot;not available&quot;" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0"/>
+  <testcase name="And A pet update with &quot;24&quot; is successfully" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0"/>
+  <testcase name="And I delete the pet that created with &quot;24&quot;" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0"/>
+  <testcase name="Then the pet deleted succesfully from the application" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0"/>
+  <testcase name="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" classname="| 24 | 46 | dear | tiger | http://dummyimage.com | 57 | tiger2 | not available |" time="0.924"/>
+  <testcase name="When I create a pet with  endpoint id" classname="Scenario: check all pets added into petstores and verify status code" time="0"/>
+  <testcase name="Then I must get back a valid status code 200" classname="Scenario: check all pets added into petstores and verify status code" time="0"/>
+  <testcase name="Scenario: check all pets added into petstores and verify status code" classname="Scenario: check all pets added into petstores and verify status code" time="0.063"/>
+  <testcase name="When I send a get request to pet using petId endpoint" classname="Scenario: get  single pet data using by id" time="0"/>
+  <testcase name="Then I must get single pet data" classname="Scenario: get  single pet data using by id" time="0"/>
+  <testcase name="Scenario: get  single pet data using by id" classname="Scenario: get  single pet data using by id" time="0.049"/>
+  <testcase name="Scenario: get  single pet data using by id" classname="Scenario: get  single pet data using by id" time="0.064"/>
+  <testcase name="When I update a pet with name" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="Then I verify with endpoint pet id" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="Scenario: update pet with name" classname="Scenario: update pet with name" time="0.044"/>
+  <testcase name="Scenario: update pet with name" classname="Scenario: update pet with name" time="0.088"/>
+  <testcase name="When I delete a pet with endpoint of id" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+  <testcase name="Then I must get valid response" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+  <testcase name="Scenario: Delete pet with using id and vberify" classname="Scenario: Delete pet with using id and vberify" time="0.043"/>
+  <testcase name="Scenario: Delete pet with using id and vberify" classname="Scenario: Delete pet with using id and vberify" time="0.066"/>
+  <testcase name="Given Pet store Application running" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0.001"/>
+  <testcase name="When I create new user by providing the information id &quot;01&quot; username &quot;shah&quot; firstName&quot;makan&quot; lastName &quot;patel&quot;  email &quot;m123@gmail.com&quot; password&quot;password1&quot; phone &quot;0203456535&quot;userStatus &quot;active&quot;" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0.01">
+    <error message="Couldn&apos;t convert &quot;active&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+	at cucumber.runtime.xstream.ConverterWithFormat.transform(ConverterWithFormat.java:31)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:18)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:8)
+	at cucumber.api.Transformer.fromString(Transformer.java:91)
+	at cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+	at cucumber.runtime.ParameterInfo.convert(ParameterInfo.java:164)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.When I create new user by providing the information id "01" username "shah" firstName"makan" lastName "patel"  email "m123@gmail.com" password"password1" phone "0203456535"userStatus "active"(userCRUD.feature:6)
+</error>
+  </testcase>
+  <testcase name="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0.011">
+    <error message="Couldn&apos;t convert &quot;active&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+	at cucumber.runtime.xstream.ConverterWithFormat.transform(ConverterWithFormat.java:31)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:18)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:8)
+	at cucumber.api.Transformer.fromString(Transformer.java:91)
+	at cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+	at cucumber.runtime.ParameterInfo.convert(ParameterInfo.java:164)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.When I create new user by providing the information id "01" username "shah" firstName"makan" lastName "patel"  email "m123@gmail.com" password"password1" phone "0203456535"userStatus "active"(userCRUD.feature:6)
+</error>
+  </testcase>
+  <testcase name="Then I get that created user  with &quot;shah&quot; is created" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update the user with information  id &quot;01&quot; username &quot;shah&quot; firstName&quot;makan&quot; lastName &quot;patel&quot;  email &quot;m123@gmail.com&quot; password&quot;password1&quot; phone &quot;0203456535&quot;userStatus &quot;active&quot;" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify user updated with &quot;shah&quot; successfully" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I delete created user with username &quot;shah&quot;" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then The user deleted successfully" classname="| 01 | shah | makan | patel | m123@gmail.com | password1 | 0203456535 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Pet store Application running" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0"/>
+  <testcase name="When I create new user by providing the information id &quot;02&quot; username &quot;taylor&quot; firstName&quot;shah&quot; lastName &quot;shah&quot;  email &quot;m345@gmail.com&quot; password&quot;password1&quot; phone &quot;0209873654&quot;userStatus &quot;active&quot;" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0.001">
+    <error message="Couldn&apos;t convert &quot;active&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+	at cucumber.runtime.xstream.ConverterWithFormat.transform(ConverterWithFormat.java:31)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:18)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:8)
+	at cucumber.api.Transformer.fromString(Transformer.java:91)
+	at cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+	at cucumber.runtime.ParameterInfo.convert(ParameterInfo.java:164)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.When I create new user by providing the information id "02" username "taylor" firstName"shah" lastName "shah"  email "m345@gmail.com" password"password1" phone "0209873654"userStatus "active"(userCRUD.feature:6)
+</error>
+  </testcase>
+  <testcase name="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0.002">
+    <error message="Couldn&apos;t convert &quot;active&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+	at cucumber.runtime.xstream.ConverterWithFormat.transform(ConverterWithFormat.java:31)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:18)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:8)
+	at cucumber.api.Transformer.fromString(Transformer.java:91)
+	at cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+	at cucumber.runtime.ParameterInfo.convert(ParameterInfo.java:164)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.When I create new user by providing the information id "02" username "taylor" firstName"shah" lastName "shah"  email "m345@gmail.com" password"password1" phone "0209873654"userStatus "active"(userCRUD.feature:6)
+</error>
+  </testcase>
+  <testcase name="Then I get that created user  with &quot;taylor&quot; is created" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update the user with information  id &quot;02&quot; username &quot;taylor&quot; firstName&quot;shah&quot; lastName &quot;shah&quot;  email &quot;m345@gmail.com&quot; password&quot;password1&quot; phone &quot;0209873654&quot;userStatus &quot;active&quot;" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify user updated with &quot;taylor&quot; successfully" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I delete created user with username &quot;taylor&quot;" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then The user deleted successfully" classname="| 02 | taylor | shah | shah | m345@gmail.com | password1 | 0209873654 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Pet store Application running" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0"/>
+  <testcase name="When I create new user by providing the information id &quot;03&quot; username &quot;robert&quot; firstName&quot;taylor&quot; lastName &quot;patel&quot;  email &quot;shah203@gmail.com&quot; password&quot;password1&quot; phone &quot;02009973472&quot;userStatus &quot;active&quot;" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0.001">
+    <error message="Couldn&apos;t convert &quot;active&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+	at cucumber.runtime.xstream.ConverterWithFormat.transform(ConverterWithFormat.java:31)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:18)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:8)
+	at cucumber.api.Transformer.fromString(Transformer.java:91)
+	at cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+	at cucumber.runtime.ParameterInfo.convert(ParameterInfo.java:164)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.When I create new user by providing the information id "03" username "robert" firstName"taylor" lastName "patel"  email "shah203@gmail.com" password"password1" phone "02009973472"userStatus "active"(userCRUD.feature:6)
+</error>
+  </testcase>
+  <testcase name="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0.002">
+    <error message="Couldn&apos;t convert &quot;active&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+	at cucumber.runtime.xstream.ConverterWithFormat.transform(ConverterWithFormat.java:31)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:18)
+	at cucumber.runtime.xstream.ConverterWithNumberFormat.transform(ConverterWithNumberFormat.java:8)
+	at cucumber.api.Transformer.fromString(Transformer.java:91)
+	at cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+	at cucumber.runtime.ParameterInfo.convert(ParameterInfo.java:164)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:68)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.When I create new user by providing the information id "03" username "robert" firstName"taylor" lastName "patel"  email "shah203@gmail.com" password"password1" phone "02009973472"userStatus "active"(userCRUD.feature:6)
+</error>
+  </testcase>
+  <testcase name="Then I get that created user  with &quot;robert&quot; is created" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update the user with information  id &quot;03&quot; username &quot;robert&quot; firstName&quot;taylor&quot; lastName &quot;patel&quot;  email &quot;shah203@gmail.com&quot; password&quot;password1&quot; phone &quot;02009973472&quot;userStatus &quot;active&quot;" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify user updated with &quot;robert&quot; successfully" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I delete created user with username &quot;robert&quot;" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then The user deleted successfully" classname="| 03 | robert | taylor | patel | shah203@gmail.com | password1 | 02009973472 | active |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I create a user" classname="Scenario: check user added into petstores and verify status code" time="0"/>
+  <testcase name="Then I must get back a valid status code" classname="Scenario: check user added into petstores and verify status code" time="0"/>
+  <testcase name="Scenario: check user added into petstores and verify status code" classname="Scenario: check user added into petstores and verify status code" time="0.063"/>
+  <testcase name="When I send a get request to user using username endpoint" classname="Scenario: get  single pet data using by id" time="0"/>
+  <testcase name="Then I must have valid status code 200" classname="Scenario: get  single pet data using by id" time="0"/>
+  <testcase name="When I update a user with name" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="Then I verify with endpoint by username and validate status" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="When I delete a user with endpoint of username" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+  <testcase name="Then I must get valid response of deleted user" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+</testsuite>

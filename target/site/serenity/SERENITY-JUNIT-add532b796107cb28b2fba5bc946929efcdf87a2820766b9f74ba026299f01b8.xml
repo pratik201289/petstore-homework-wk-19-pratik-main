@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="User Data Creating in Petstore application" skipped="0" tests="3" time="0.17" timestamp="2023-01-13T23:56:16.846Z[Europe/London]"><testcase name="CRUD Test"><error message="Couldn't convert &quot;active&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+-------------------------------</error><system-err>Couldn't convert "active" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+-------------------------------&#13;
+cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)&#13;
+✽.When I create new user by providing the information id "01" username "shah" firstName"makan" lastName "patel"  email "m123@gmail.com" password"password1" phone "0203456535"userStatus "active"(userCRUD.feature:6)&#13;
+</system-err></testcase></testsuite>
